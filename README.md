@@ -29,3 +29,17 @@ A modelagem utiliza relacionamentos de um para muitos (1:N), onde uma linha em u
 **Hierarquia Snowflake:** Para evitar a redundância de dados e melhorar a organização, algumas dimensões (como as de produto e endereço) foram modeladas como um esquema Snowflake. Isso significa que uma dimensão se "ramifica" para outra. Por exemplo, a DimProduto se liga à DimSubcategoria, que por sua vez se liga à DimCategoria. Essa hierarquia permite uma análise granular, indo do nível mais alto (categoria) ao nível mais baixo (produto e variação).
 
 A combinação da simplicidade do Star-Schema com a organização hierárquica do Snowflake fornece um modelo de dados robusto e escalável, capaz de fornecer à TechNova os insights estratégicos necessários para otimizar suas operações.
+
+## Conclusão ✔️
+
+O projeto de modelagem relacional da TechNova E-commerce, centrado em um robusto Star-Schema, representa uma virada de chave para a empresa. Mais do que apenas um conjunto de tabelas e colunas, essa arquitetura de dados é a base para uma nova era de análise e tomada de decisão estratégica.
+
+Ao migrar de relatórios operacionais básicos para um modelo analítico de alto desempenho, a TechNova agora pode:
+
+1. Obter uma Visão 360° do Negócio
+2. Aumentar a Flexibilidade e a Velocidade da Análise
+3. Garantir a Consistência e Confiabilidade dos Dados
+
+## Ferramenta 🛠️
+
+**MySQL Workbench**
