@@ -32,7 +32,7 @@ A combinação da simplicidade do Star-Schema com a organização hierárquica d
 
 ## Conclusão ✔️
 
-O projeto de modelagem relacional da TechNova E-commerce, centrado em um robusto Star-Schema, representa uma virada de chave para a empresa. Mais do que apenas um conjunto de tabelas e colunas, essa arquitetura de dados é a base para uma nova era de análise e tomada de decisão estratégica.
+O projeto de modelagem relacional da TechNova E-commerce, centrado em um robusto StarFlake-Schema, representa uma virada de chave para a empresa. Mais do que apenas um conjunto de tabelas e colunas, essa arquitetura de dados é a base para uma nova era de análise e tomada de decisão estratégica.
 
 Ao migrar de relatórios operacionais básicos para um modelo analítico de alto desempenho, a TechNova agora pode:
 
