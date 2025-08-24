@@ -131,3 +131,4 @@ CREATE TABLE FatoVendas (
     FOREIGN KEY (ID_Campanha) REFERENCES Dim_Campanha(ID_Campanha)
 );
 
+
