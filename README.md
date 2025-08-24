@@ -30,6 +30,14 @@ A modelagem utiliza relacionamentos de um para muitos (1:N), onde uma linha em u
 
 A combinação da simplicidade do Star-Schema com a organização hierárquica do Snowflake fornece um modelo de dados robusto e escalável, capaz de fornecer à TechNova os insights estratégicos necessários para otimizar suas operações.
 
+## Teste do Modelo Relacional: Análise e Validação de Negócios ✅
+
+Este tópico apresenta uma série de consultas SQL(acesse o arquivo 'teste_modelo.sql' para visualizar as consultas) desenvolvidas para validar a eficácia do modelo relacional e demonstrar seu potencial na geração de insights estratégicos. Cada consulta foi projetada para responder a uma pergunta de negócio específica, simulando um cenário real de análise de dados. Exemplo de perguntas de negócio:
+
+1. Qual vendedor é o mais lucrativo para a empresa, e qual é a sua eficiência operacional?
+2. Quais variações de produtos (ex: cor, tamanho, memória) são as mais vendidas?
+3. Qual o retorno financeiro de cada campanha de marketing e como ele se compara ao custo da campanha?
+
 ## Conclusão ✔️
 
 O projeto de modelagem relacional da TechNova E-commerce, centrado em um robusto StarFlake-Schema, representa uma virada de chave para a empresa. Mais do que apenas um conjunto de tabelas e colunas, essa arquitetura de dados é a base para uma nova era de análise e tomada de decisão estratégica.
