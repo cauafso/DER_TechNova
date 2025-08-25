@@ -32,7 +32,7 @@ A combinação da simplicidade do Star-Schema com a organização hierárquica d
 
 ## Teste do Modelo Relacional: Análise e Validação de Negócios ✅
 
-Este tópico apresenta uma série de consultas SQL(acesse o arquivo 'teste_modelo.sql' para visualizar as consultas) desenvolvidas para validar a eficácia do modelo relacional e demonstrar seu potencial na geração de insights estratégicos. Cada consulta foi projetada para responder a uma pergunta de negócio específica, simulando um cenário real de análise de dados. Exemplo de perguntas de negócio:
+Este tópico apresenta uma série de consultas SQL(acesse o arquivo 'teste_modelagem_relacional.sql' para visualizar as consultas) desenvolvidas para validar a eficácia do modelo relacional e demonstrar seu potencial na geração de insights estratégicos. Cada consulta foi projetada para responder a uma pergunta de negócio específica, simulando um cenário real de análise de dados. Exemplo de perguntas de negócio:
 
 1. Qual vendedor é o mais lucrativo para a empresa, e qual é a sua eficiência operacional?
 2. Quais variações de produtos (ex: cor, tamanho, memória) são as mais vendidas?
