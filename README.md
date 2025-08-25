@@ -1,4 +1,4 @@
-# Modelagem Banco de Dados TechNova E-commerce
+# Modelagem Banco de Dados TechNova E-commerce 🗄️
 ## Cenário 📝
 
 A TechNova E-commerce, uma grande empresa de tecnologia, contratou um analista de dados, para resolver uma limitação crítica: a falta de insights estratégicos sobre suas operações de vendas e marketing. A empresa precisava de um sistema que fosse além dos relatórios básicos de faturamento para responder a perguntas cruciais, como "Quais campanhas de marketing geram mais lucro?" e "Qual a performance de vendas de produtos específicos em diferentes regiões?".
@@ -26,7 +26,7 @@ A modelagem utiliza relacionamentos de um para muitos (1:N), onde uma linha em u
 
 **Para Análise Rápida:** O Star-Schema é otimizado para consultas analíticas complexas. A sua estrutura simples de JOINs (entre a tabela de fatos e as dimensões) permite que as ferramentas de BI e SQL executem consultas de forma extremamente eficiente, mesmo em grandes volumes de dados.
 
-**Hierarquia Snowflake:** Para evitar a redundância de dados e melhorar a organização, algumas dimensões (como as de produto e endereço) foram modeladas como um esquema Snowflake. Isso significa que uma dimensão se "ramifica" para outra. Por exemplo, a DimProduto se liga à DimSubcategoria, que por sua vez se liga à DimCategoria. Essa hierarquia permite uma análise granular, indo do nível mais alto (categoria) ao nível mais baixo (produto e variação).
+**Hierarquia Snowflake:** Para evitar a redundância de dados e melhorar a organização, algumas dimensões (como as de produto e endereço) foram modeladas como um esquema Snowflake. Isso significa que uma dimensão se "ramifica" para outra. Por exemplo, a Dim_Produto se liga à Dim_Subcategoria, que por sua vez se liga à Dim_Categoria. Essa hierarquia permite uma análise granular, indo do nível mais alto (categoria) ao nível mais baixo (produto e variação).
 
 A combinação da simplicidade do Star-Schema com a organização hierárquica do Snowflake fornece um modelo de dados robusto e escalável, capaz de fornecer à TechNova os insights estratégicos necessários para otimizar suas operações.
 
